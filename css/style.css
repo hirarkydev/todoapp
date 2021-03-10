@@ -48,7 +48,8 @@ body{
 }
 
 .itemList .content p{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    color: #19b81e;
 }
 
 .itemList .content span{
@@ -63,4 +64,8 @@ body{
 
 .itemList .deleteBtn{
     padding: 10px;
+}
+
+.itemList.completed .content p{
+    text-decoration: line-through;
 }
